@@ -16,7 +16,7 @@ def test_simplify_3():
 # generated from the remainder of the expression
 # with a stored operator value for the node
 
-# def test_add_two_digits():
-#     solver = algebra.Algebra()
-#     answer = solver.simplify("3 + 4")
-#     assert answer == "7"
+def test_add_two_digits():
+    solver = algebra.Algebra()
+    answer = solver.simplify("3 + 4")
+    assert answer == "7"
